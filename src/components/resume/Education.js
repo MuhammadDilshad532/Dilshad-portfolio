@@ -1,6 +1,6 @@
-import React from 'react'
-import { motion } from 'framer-motion';
-import ResumeCard from './ResumeCard';
+import React from "react";
+import { motion } from "framer-motion";
+import ResumeCard from "./ResumeCard";
 
 const Education = () => {
   return (
@@ -12,27 +12,27 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
+          <p className="text-sm text-designColor tracking-[4px]">2007 - 2023</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
+            title="ADP in Information Technology"
+            subTitle=" GC university Sub Campus Layyah  (2021 - 2023)"
+            result="3.19/4"
             des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
+            title="ICS (Intermediate in Computer Science)"
+            subTitle="Zavia college Shaher Sultan (2019 - 2021)"
+            result="75%"
             des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
           />
           <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Metric"
+            subTitle="Govt High school Shaher sultan (2017 - 2019)"
+            result="85%"
+            des="Metric education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
         </div>
       </div>
@@ -66,6 +66,6 @@ const Education = () => {
       </div>
     </motion.div>
   );
-}
+};
 
-export default Education
+export default Education;
