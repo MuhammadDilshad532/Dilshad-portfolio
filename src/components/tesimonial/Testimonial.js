@@ -158,11 +158,11 @@ const Testimonial = () => {
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                    Choudary
                   </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                  <h3 className="text-2xl font-bold">Muhammad Ramzan</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                    Software Engineer
                   </p>
                 </div>
               </div>
@@ -172,10 +172,10 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                        Food Delivery App Design.
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        via Upwork - Mar 4, 2015 - Aug 30, 2024 test
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -209,11 +209,11 @@ const Testimonial = () => {
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                    MD-Technical
                   </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                  <h3 className="text-2xl font-bold">Muhammad Dilshad</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                    Full Stack Developer
                   </p>
                 </div>
               </div>
@@ -223,10 +223,10 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                        Ecommerce Website Development.
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        via Upwork - Mar 4, 2020 - Aug 30, 2024 test
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
