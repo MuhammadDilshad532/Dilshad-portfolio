@@ -20,12 +20,20 @@ const ProjectsCard = ({ title, des, src }) => {
             </h3>
             <div className="flex gap-2">
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <a href="https://github.com/MuhammadDilshad532" target="_blank">
+                <a
+                  href="https://github.com/MuhammadDilshad532"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <BsGithub />
                 </a>
               </span>
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <a href="https://dilshad-portfolio.vercel.app/" target="_blank">
+                <a
+                  href="https://dilshad-portfolio.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaGlobe />
                 </a>
               </span>
