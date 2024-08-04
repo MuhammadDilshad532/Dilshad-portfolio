@@ -4,8 +4,9 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaReact,
+  FaJsSquare,
 } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -56,7 +57,7 @@ const Media = () => {
             <SiTailwindcss />
           </span>
           <span className="bannerIcon">
-            <SiFigma />
+            <FaJsSquare />
           </span>
         </div>
       </div>
