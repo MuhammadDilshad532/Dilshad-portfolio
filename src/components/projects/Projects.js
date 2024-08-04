@@ -1,7 +1,7 @@
-import React from 'react'
-import Title from '../layouts/Title'
+import React from "react";
+import Title from "../layouts/Title";
 import { projectOne, projectTwo, projectThree } from "../../assets/index";
-import ProjectsCard from './ProjectsCard';
+import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
   return (
@@ -17,7 +17,7 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
+          title=" Codesprint-web"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectOne}
@@ -29,19 +29,19 @@ const Projects = () => {
           src={projectTwo}
         />
         <ProjectsCard
-          title="Chatting App"
+          title="Rubngub.com"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectThree}
         />
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
+          title="Personal-portfolio"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectThree}
         />
         <ProjectsCard
-          title="E-commerce Website"
+          title="Access.pk"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectOne}
@@ -55,6 +55,6 @@ const Projects = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Projects
+export default Projects;
