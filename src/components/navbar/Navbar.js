@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 
@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div className="flex gap-2">
-        <img src={logo} alt="logo" className="w-14" />
+        <img src={logo} alt="logo" className="w-14 rounded-full" />
         <span className="font-bold text-3xl mt-3">MD</span>
       </div>
       <div>
@@ -76,15 +76,21 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
+                  <a href="https://www.facebook.com/profile.php?id=100080294441134">
+                    <span className="bannerIcon">
+                      <FaFacebookF />
+                    </span>
+                  </a>
+                  <a href="https://www.instagram.com/muhammaddilshad7672/">
+                    <span className="bannerIcon">
+                      <FaInstagram />
+                    </span>
+                  </a>
+                  <a href="https://www.linkedin.com/in/muhammaddilshad542/">
+                    <span className="bannerIcon">
+                      <FaLinkedinIn />
+                    </span>
+                  </a>
                 </div>
               </div>
               <span
