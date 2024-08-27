@@ -20,19 +20,19 @@ const Education = () => {
             title="ADP in Information Technology"
             subTitle=" GC university Sub Campus Layyah  (2021 - 2023)"
             result="3.19/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            des="Completed ADP in Information Technology at GC University Sub Campus Layyah (2021-2023), gaining expertise in modern technologies and hands-on skills."
           />
           <ResumeCard
             title="ICS (Intermediate in Computer Science)"
             subTitle="Zavia college Shaher Sultan (2019 - 2021)"
             result="75%"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            des="Completed ICS in Computer Science at Zavia College Shaher Sultan (2019-2021), gaining foundational knowledge in programming, systems, and software development."
           />
           <ResumeCard
             title="Metric"
             subTitle="Govt High school Shaher sultan (2017 - 2019)"
             result="85%"
-            des="Metric education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            des="Completed Metric at Govt High School Shaher Sultan (2017-2019), building a strong foundation in essential subjects and academic skills for further education."
           />
         </div>
       </div>
