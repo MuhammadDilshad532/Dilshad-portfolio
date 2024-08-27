@@ -19,19 +19,19 @@ const Experience = () => {
             title="React.js Developer"
             subTitle="CodeSprint- (2023 - Present)"
             result="Pakistan"
-            des="CodeSprint hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            des="Currently working as a React.js Developer at CodeSprint, building high-performance web applications with a focus on modern UI/UX (2023-Present)."
           />
           <ResumeCard
             title="Next.js Developer"
             subTitle="Securehops Developer Team - (2023 - 2024)"
             result="Pakistan"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Pakistan isn't easy."
+            des="Worked as a Next.js Developer at Securehops Developer Team, building server-rendered applications focused on performance, SEO, and scalability (2023-2024)."
           />
           <ResumeCard
             title="Front-end Developer"
             subTitle="CodeSprint - (2023 - 2024)"
             result="Pakistan"
-            des="The Pakistan economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            des="Worked as a Front-end Developer at CodeSprint, developing responsive and interactive user interfaces using modern technologies like React.js (2023-2024)."
           />
         </div>
       </div>
@@ -45,19 +45,19 @@ const Experience = () => {
             title="Gym Instructor"
             subTitle="Rainbow Gym Center (2020 - 2021)"
             result="Pakistan"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            des="Worked as a Gym Instructor at Rainbow Gym Center, guiding clients through personalized fitness programs and promoting overall health (2020-2021)."
           />
           <ResumeCard
             title="Web Developer and Instructor"
             subTitle="SuperKing College (2021 - 2022)"
             result="Pakistan"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            des="Served as a Web Developer and Instructor at SuperKing College, teaching web development skills and building educational web projects (2021-2022)."
           />
           <ResumeCard
             title="School Teacher"
             subTitle="Kingstar Secondary School (2022 - 2023)"
             result="Pakistan"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            des="Taught at Kingstar Secondary School, delivering engaging lessons, managing classroom activities, and supporting students' academic growth (2022-2023)."
           />
         </div>
       </div>
