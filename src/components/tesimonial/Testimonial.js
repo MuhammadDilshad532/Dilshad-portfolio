@@ -136,11 +136,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                  Muhammad Dilshad delivered an outstanding travel website design that perfectly captured our brand. The site is visually engaging, intuitive, and user-friendly. It has significantly boosted customer interaction and streamlined our booking process, exceeding our expectations.
                   </p>
                 </div>
               </div>
@@ -187,11 +183,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                  Muhammad Dilshad designed an impressive food delivery app with a sleek, intuitive interface. The app enhances user experience with seamless ordering and tracking features, leading to higher customer satisfaction and increased orders. A truly valuable addition to our service.
                   </p>
                 </div>
               </div>
@@ -238,11 +230,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                  Muhammad Dilshad developed a top-notch e-commerce website for us, featuring a modern, responsive design and smooth checkout process. His attention to detail and expertise have resulted in increased sales and improved user satisfaction. Highly recommended for quality web development.
                   </p>
                 </div>
               </div>
