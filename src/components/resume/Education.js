@@ -48,19 +48,19 @@ const Education = () => {
             title="React.js/Next.js Developer"
             subTitle="CodeSprint (2024 - Present)"
             result="Lahore "
-            des="Codesprint's hiring process is an important part of our culture. Codesprintlers care deeply about their teams and the people who make them up."
+            des="Developing dynamic, scalable web applications at CodeSprint using React.js and Next.js, focusing on performance, user experience, and server-side rendering."
           />
           <ResumeCard
             title="Web Developer & Trainer"
             subTitle="Securehops Developer Team - (2023 - 2024)"
             result="Lahore, Punjab"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            des="Worked as a Web Developer & Trainer at Securehops Developer Team, delivering projects and training developers in modern web technologies (2023-2024)."
           />
           <ResumeCard
             title="Front-end Developer"
             subTitle="Codesprint - (2023 - 2024)"
             result="Lahore"
-            des="The Lahore economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            des="Served as a Front-end Developer at CodeSprint, creating responsive, user-friendly interfaces with modern frameworks and optimizing performance (2023-2024)."
           />
         </div>
       </div>
