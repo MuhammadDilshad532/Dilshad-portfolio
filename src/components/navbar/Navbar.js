@@ -46,9 +46,9 @@ const Navbar = () => {
               <div>
                 <img className="w-32 rounded-full" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  I am a React.js developer skilled in HTML, CSS, Tailwind CSS,
+                  Bootstrap, JavaScript, React.js and Next.js , focusing on
+                  user-friendly interfaces and responsive web apps.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
