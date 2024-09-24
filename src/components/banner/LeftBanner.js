@@ -7,6 +7,7 @@ const LeftBanner = () => {
     words: [
       "Professional Coder.",
       "React.js Developer.",
+      "Next.js Developer.",
       "Front end Developer.",
     ],
     loop: true,
