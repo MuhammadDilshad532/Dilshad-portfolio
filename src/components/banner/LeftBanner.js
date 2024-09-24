@@ -5,9 +5,9 @@ import Media from "./Media";
 const LeftBanner = () => {
   const [text] = useTypewriter({
     words: [
-      "Pro Coder.",
-      "React Developer.",
-      "Front end Dev.",
+      "Professional Coder.",
+      "React.js Developer.",
+      "Front end Developer.",
     ],
     loop: true,
     typeSpeed: 20,
@@ -21,7 +21,7 @@ const LeftBanner = () => {
         <h1 className="text-6xl font-bold text-white">
           Hi, I'm <span className="text-designColor capitalize">M.Dilshad</span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
+        <h2 className="text-2xl font-bold text-white">
           a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
