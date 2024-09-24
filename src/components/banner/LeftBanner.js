@@ -5,9 +5,9 @@ import Media from "./Media";
 const LeftBanner = () => {
   const [text] = useTypewriter({
     words: [
-      "Professional Coder.",
-      "React/Next.js Developer.",
-      "Front end Developer.",
+      "Pro Coder.",
+      "React Developer.",
+      "Front end Dev.",
     ],
     loop: true,
     typeSpeed: 20,
