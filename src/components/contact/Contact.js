@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com'; // Import EmailJS
+import emailjs from 'emailjs-com'; 
 import Title from '../layouts/Title';
 import ContactLeft from './ContactLeft';
 
@@ -33,10 +33,10 @@ const Contact = () => {
     } else if (message === "") {
       setErrMsg("Message is required!");
     } else {
-      // EmailJS sending code
+      
       emailjs.send(
-        'service_4itsw1n', // Your service ID
-        'template_6zf0ocz', // Your EmailJS template ID
+        'service_4itsw1n', 
+        'template_6zf0ocz', 
         {
           from_name: username,
           phone_number: phoneNumber,
@@ -44,7 +44,7 @@ const Contact = () => {
           subject: subject,
           message: message,
         },
-        'X5gf_EA0piPboEfhf' // Your EmailJS public key
+        'X5gf_EA0piPboEfhf'
       )
       .then((response) => {
         console.log('Email sent successfully!', response.status, response.text);
