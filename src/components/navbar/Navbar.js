@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div className="flex gap-2">
         <img src={logo} alt="logo" className="w-14 rounded-full" />
-        <span className="font-bold text-3xl mt-3">MD</span>
+        {/* <span className="font-bold text-3xl mt-3">MD</span> */}
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -63,7 +63,7 @@ const Navbar = () => {
                       to={item.link}
                       spy={true}
                       smooth={true}
-                      offset={-70}
+                      offset={-70} 
                       duration={500}
                     >
                       {item.title}
