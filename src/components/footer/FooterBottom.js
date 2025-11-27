@@ -1,12 +1,14 @@
 import React from "react";
 
 const FooterBottom = () => {
+  const year = new Date().getFullYear();
+
   return (
-    <div className="w-full py-10">
+    <footer className="w-full py-10 ">
       <p className="text-center text-white text-base">
-        © 2024. All rights reserved by Muhammad Dilshad
+        © {year}. All rights reserved by Muhammad Dilshad
       </p>
-    </div>
+    </footer>
   );
 };
 
