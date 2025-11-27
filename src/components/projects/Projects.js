@@ -1,13 +1,26 @@
 import React from "react";
+import { motion } from "framer-motion";
 import Title from "../layouts/Title";
-import { projectOne, projectTwo, projectThree, projectFour, projectfive, projectSex } from "../../assets/index";
+import {
+  projectOne,
+  projectTwo,
+  projectThree,
+  projectFour,
+  projectfive,
+  projectSex,
+} from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
+import { fadeInUp, staggerChildren } from "../../utils/motionPresets";
 
 const Projects = () => {
   return (
-    <section
+    <motion.section
       id="projects"
       className="w-full py-20 border-b-[1px] border-b-black"
+      variants={fadeInUp(0)}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.2 }}
     >
       <div className="flex justify-center items-center text-center">
         <Title
@@ -15,7 +28,10 @@ const Projects = () => {
           des="My Projects"
         />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+      <motion.div
+        className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14"
+        variants={staggerChildren(0.12, 0.2)}
+      >
         <ProjectsCard
           title="Codesprint-web"
           des=" Codesprint-web is an interactive platform for coding challenges, built with React.js and Tailwind CSS for dynamic performance."
@@ -58,8 +74,8 @@ const Projects = () => {
           githubLink="https://github.com/MuhammadDilshad532/chatting-app"
           liveLink="https://chatting-app.example.com"
         />
-      </div>
-    </section>
+      </motion.div>
+    </motion.section>
   );
 };
 
