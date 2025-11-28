@@ -14,8 +14,8 @@ const WhatsAppButton = () => {
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
     >
-      <div className="w-12 h-12 rounded-full flex justify-center items-center">
-        <img src={Whatsapp} alt="WhatsApp" height={40} width={40} />
+      <div className="w-8 h-8 rounded-full flex justify-center items-center">
+        <img src={Whatsapp} alt="WhatsApp" height={35} width={35} />
       </div>
     </motion.a>
   );
