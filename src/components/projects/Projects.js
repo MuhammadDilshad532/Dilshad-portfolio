@@ -54,24 +54,24 @@ const Projects = () => {
           liveLink="https://rubngub.com"
         />
         <ProjectsCard
-          title="Personal-portfolio"
+          title="portfolio by w3school"
           des=" My personal portfolio showcases my skills and projects, featuring a clean design and detailed project descriptions."
           src={projectFour}
           githubLink="https://github.com/MuhammadDilshad532/personal-portfolio"
-          liveLink="https://dilshad-portfolio.vercel.app/"
+          liveLink="https://w3school-portfolio.vercel.app/"
         />
         <ProjectsCard
-          title="Access.pk"
-          des=" Access.pk is a comprehensive platform offering easy access to services, products, and user-friendly navigation."
+          title="Daraz page"
+          des=" A responsive Daraz-style webpage created using HTML and CSS, focusing on layout, styling, and modern UI design"
           src={projectfive}
-          githubLink="https://github.com/MuhammadDilshad532/access-pk"
-          liveLink="https://access.pk"
+          githubLink="https://github.com/MuhammadDilshad532/daraz-page"
+          liveLink="https://darazpage.vercel.app/"
         />
         <ProjectsCard
           title="bbaby sulemanclone"
-          des=" A feature-rich chatting app enabling real-time messaging, media sharing, and secure conversations with a user-friendly interface."
+          des=" A responsive bbaby sulemanclone project built using React, Tailwind CSS, and React Icons to deliver a polished modern UI"
           src={projectSex}
-          githubLink="https://github.com/MuhammadDilshad532/chatting-app"
+          githubLink="https://github.com/MuhammadDilshad532/BBABYSulemanclone"
           liveLink="https://bbaby-sulemanclone.vercel.app/"
         />
       </motion.div>
