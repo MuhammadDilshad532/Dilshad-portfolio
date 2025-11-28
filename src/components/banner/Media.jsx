@@ -6,6 +6,7 @@ import {
   FaLinkedinIn,
   FaReact,
   FaJsSquare,
+  FaGithub,
 } from "react-icons/fa";
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 import { fadeInUp, staggerChildren } from "../../utils/motionPresets";
@@ -32,7 +33,7 @@ const Media = () => {
             </motion.span>
           </a>
           <a
-            href="https://www.instagram.com/muhammaddilshad7672/"
+            href="https://github.com/MuhammadDilshad532"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -40,7 +41,7 @@ const Media = () => {
               whileHover={{ scale: 1.15, rotate: -3 }}
               className="bannerIcon"
             >
-              <FaInstagram />
+              <FaGithub />
             </motion.span>
           </a>
           <a

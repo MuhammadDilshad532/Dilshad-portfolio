@@ -49,7 +49,7 @@ const ContactLeft = () => {
           className="text-base text-gray-400 flex items-center gap-2"
           variants={fadeInUp(0.2)}
         >
-          Email: <span className="text-lightText">mdtechnical47@gmail.com</span>
+          Email: <span className="text-lightText">muhammaddilshad2167@gmail.com</span>
         </motion.p>
       </motion.div>
       <motion.div className="flex flex-col gap-4" variants={fadeInUp(0.25)}>
