@@ -19,7 +19,7 @@ const FooterBottom = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.6 }}
       >
-        © {year}. All rights reserved by Muhammad Dilshad
+        © {year}. All Rights Reserved — Muhammad Dilshad
       </motion.p>
     </motion.footer>
   );

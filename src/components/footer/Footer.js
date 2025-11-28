@@ -47,10 +47,10 @@ const Footer = () => {
       </motion.div>
       <motion.div className="w-full h-full" variants={fadeInUp(0.05)}>
         <h3 className="text-xl uppercase text-designColor tracking-wider">
-          Quick Link
+          Quick Links
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
-          {["About", "Portfolio", "Services", "Blog", "Contact"].map((item) => (
+          {["About", "Projects", "Skills", "Contact"].map((item) => (
             <li key={item}>
               <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
                 {item}
@@ -62,16 +62,10 @@ const Footer = () => {
       </motion.div>
       <motion.div className="w-full h-full" variants={fadeInUp(0.1)}>
         <h3 className="text-xl uppercase text-designColor tracking-wider">
-          RESOURCES
+          Resources
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
-          {[
-            "Authentication",
-            "System Status",
-            "Terms of Service",
-            "Pricing",
-            "Over Right",
-          ].map((item) => (
+          {["Resume", "Certifications", "Portfolio", "Contact Info"].map((item) => (
             <li key={item}>
               <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
                 {item}
@@ -83,16 +77,10 @@ const Footer = () => {
       </motion.div>
       <motion.div className="w-full h-full" variants={fadeInUp(0.15)}>
         <h3 className="text-xl uppercase text-designColor tracking-wider">
-          DEVELOPERS
+          Tech Stack
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium overflow-hidden py-6">
-          {[
-            "Documentation",
-            "Authentication",
-            "API Reference",
-            "Support",
-            "Open Source",
-          ].map((item) => (
+          {["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"].map((item) => (
             <li key={item}>
               <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
                 {item}
