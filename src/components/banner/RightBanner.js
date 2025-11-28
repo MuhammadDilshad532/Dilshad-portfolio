@@ -10,17 +10,17 @@ const RightBanner = () => {
       variants={fadeInUp(0.2)}
     >
       <motion.img
-        className="w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10"
+        className="w-[300px] h-[300px] lgl:w-[500px] lgl:h-[500px] z-10 rounded-lg border-4 border-designColor shadow-2xl object-cover"
         src={bannerImg}
         alt="bannerImg"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.9, ease: "easeOut" }}
-        whileHover={{ scale: 1.02 }}
+        whileHover={{ scale: 1.05, rotate: 2 }}
       />
       <motion.div
-        className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"
+        className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#0f0f23] via-[#1e2024] to-[#202327] shadow-2xl rounded-lg flex justify-center items-center border border-designColor/20"
         initial={{ opacity: 0, scale: 0.9 }}
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}

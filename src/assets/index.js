@@ -1,6 +1,5 @@
 import logo from "./images/logo.png";
-import bannerImg from "./images/bannerImg2.png";
-// import dilshad from "./images/dilshad.jpg";
+import bannerImg from "./images/bannerImg2.jpg";
 import projectOne from "./images/projects/codesprint.png";
 import projectTwo from "./images/projects/E-commerce.png";
 import projectThree from "./images/projects/rubngub.png";
@@ -16,7 +15,6 @@ import contactImg from "./images/contact/contactImg.png";
 export {
   logo,
   bannerImg,
-  // dilshad,
   projectOne,
   projectTwo,
   projectThree,

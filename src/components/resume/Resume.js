@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import Title from "../layouts/Title";
 import Education from "./Education";
 import Skills from "./Skills";
-import Achievement from "./Achievement";
 import Experience from "./Experience";
 import { fadeInUp, staggerChildren } from "../../utils/motionPresets";
 
@@ -11,7 +10,13 @@ const Resume = () => {
   const [educationData, setEducationData] = useState(true);
   const [skillData, setSkillData] = useState(false);
   const [experienceData, setExperienceData] = useState(false);
-  const [achievementData, setAchievementData] = useState(false);
+
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/Dilshad_Resume.pdf';
+    link.download = 'Dilshad_Resume.pdf';
+    link.click();
+  };
 
   const tabs = [
     {
@@ -21,7 +26,6 @@ const Resume = () => {
         setEducationData(true);
         setSkillData(false);
         setExperienceData(false);
-        setAchievementData(false);
       },
     },
     {
@@ -31,7 +35,6 @@ const Resume = () => {
         setEducationData(false);
         setSkillData(true);
         setExperienceData(false);
-        setAchievementData(false);
       },
     },
     {
@@ -41,17 +44,6 @@ const Resume = () => {
         setEducationData(false);
         setSkillData(false);
         setExperienceData(true);
-        setAchievementData(false);
-      },
-    },
-    {
-      label: "Achievements",
-      isActive: achievementData,
-      onClick: () => {
-        setEducationData(false);
-        setSkillData(false);
-        setExperienceData(false);
-        setAchievementData(true);
       },
     },
   ];
@@ -69,7 +61,7 @@ const Resume = () => {
         <Title title="1+ YEARS OF EXPERIENCE" des="My Resume" />
       </div>
       <motion.div variants={staggerChildren(0.1, 0.1)}>
-        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
           {tabs.map((tab) => (
             <motion.li
               key={tab.label}
@@ -84,10 +76,19 @@ const Resume = () => {
             </motion.li>
           ))}
         </ul>
+        <div className="w-full flex justify-center mt-8">
+          <motion.button
+            onClick={handleDownload}
+            className="bg-designColor text-white px-6 py-3 rounded-lg font-semibold hover:bg-opacity-80 transition duration-300"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            Download Resume
+          </motion.button>
+        </div>
       </motion.div>
       {educationData && <Education />}
       {skillData && <Skills />}
-      {achievementData && <Achievement />}
       {experienceData && <Experience />}
     </motion.section>
   );
