@@ -68,11 +68,11 @@ const Projects = () => {
           liveLink="https://access.pk"
         />
         <ProjectsCard
-          title="Chatting App"
+          title="bbaby sulemanclone"
           des=" A feature-rich chatting app enabling real-time messaging, media sharing, and secure conversations with a user-friendly interface."
           src={projectSex}
           githubLink="https://github.com/MuhammadDilshad532/chatting-app"
-          liveLink="https://chatting-app.example.com"
+          liveLink="https://bbaby-sulemanclone.vercel.app/"
         />
       </motion.div>
     </motion.section>

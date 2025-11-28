@@ -46,7 +46,7 @@ const Contact = () => {
             subject: subject,
             message: message,
           },
-          "X5gf_EA0piPboEfhf"
+          "-TwXBb78yp1ISu7hc"
         )
         .then((response) => {
           console.log("Email sent successfully!", response.status, response.text);
@@ -148,7 +148,7 @@ const Contact = () => {
                   onChange={(e) => setEmail(e.target.value)}
                   value={email}
                   className={`${
-                    errMsg === "Please give your Email!" && "outline-designColor"
+                    (errMsg === "Please give your Email!" || errMsg === "Give a valid Email!") && "outline-designColor"
                   } contactInput`}
                   type="email"
                   whileFocus={{ scale: 1.01 }}
