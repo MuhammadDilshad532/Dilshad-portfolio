@@ -32,28 +32,7 @@ const Projects = () => {
         className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14"
         variants={staggerChildren(0.12, 0.2)}
       >
-        <ProjectsCard
-          title="Codesprint-web"
-          des=" Codesprint-web is an interactive platform for coding challenges, built with React.js and Tailwind CSS for dynamic performance."
-          src={projectOne}
-          githubLink="https://github.com/MuhammadDilshad532/codesprint-web"
-          liveLink="https://codesprint.site/"
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Developed an e-commerce website with React.js, offering seamless shopping experiences, secure transactions, and responsive design."
-          src={projectTwo}
-          githubLink="https://github.com/MuhammadDilshad532/ecommerce-website-by-react"
-          liveLink="https://dilshad-shoping.vercel.app/"
-        />
-        <ProjectsCard
-          title="Rubngub.com"
-          des=" Rubngub.com is an all-in-one platform offering organic products, featuring a user-friendly interface and secure transactions."
-          src={projectThree}
-          githubLink="https://github.com/MuhammadDilshad532/rubngub"
-          liveLink="https://rubngub.com"
-        />
-        <ProjectsCard
+                <ProjectsCard
           title="portfolio by w3school"
           des=" My personal portfolio showcases my skills and projects, featuring a clean design and detailed project descriptions."
           src={projectFour}
@@ -74,6 +53,28 @@ const Projects = () => {
           githubLink="https://github.com/MuhammadDilshad532/BBABYSulemanclone"
           liveLink="https://bbaby-sulemanclone.vercel.app/"
         />
+        <ProjectsCard
+          title="tic-tac-toe"
+          des=" Created an interactive Tic Tac Toe game using React and Tailwind CSS with smooth UI and responsive design"
+          src={projectOne}
+          githubLink="https://github.com/MuhammadDilshad532/Tic-Tac-Toe"
+          liveLink="https://professional-tic-tac-toe.vercel.app/"
+        />
+        <ProjectsCard
+          title="E-commerce Website"
+          des=" Developed an e-commerce website with React.js, offering seamless shopping experiences, secure transactions, and responsive design."
+          src={projectTwo}
+          githubLink="https://github.com/MuhammadDilshad532/ecommerce-website-by-react"
+          liveLink="https://dilshad-shoping.vercel.app/"
+        />
+        <ProjectsCard
+          title="to-do-app"
+          des=" I have built two modern, responsive apps showcasing clean UI, efficient code, and strong frontend development skills."
+          src={projectThree}
+          githubLink="https://github.com/MuhammadDilshad532/rubngub"
+          liveLink="https://professional-to-do-app.vercel.app/"
+        />
+
       </motion.div>
     </motion.section>
   );
