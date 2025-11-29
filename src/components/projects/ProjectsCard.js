@@ -29,7 +29,7 @@ const ProjectsCard = ({ title, des, src, githubLink, liveLink }) => {
             <div className="flex gap-2">
               <motion.span
                 className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 cursor-pointer"
-                whileHover={{ scale: 1.15, color: "#ff014f" }}
+                whileHover={{ scale: 1.15, color: "#feb403" }}
               >
                 <a
                   href={githubLink}
@@ -41,7 +41,7 @@ const ProjectsCard = ({ title, des, src, githubLink, liveLink }) => {
               </motion.span>
               <motion.span
                 className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 cursor-pointer"
-                whileHover={{ scale: 1.15, color: "#ff014f" }}
+                whileHover={{ scale: 1.15, color: "#feb403" }}
               >
                 <a
                   href={liveLink}
